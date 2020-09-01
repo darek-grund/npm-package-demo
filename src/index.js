@@ -1,6 +1,6 @@
-import bool from '~/bool';
-import float from '~/float';
-import integer from '~/integer';
+import bool from '~/randomize/bool';
+import float from '~/randomize/float';
+import integer from '~/randomize/integer';
 
 const choice = (max = 1, min = 0, options = {}) => {
     if (options.float === true) {
